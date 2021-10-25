@@ -8,7 +8,7 @@ import os
 # --- You Will NOT Be Able To Decrypt Your Messages If You Do
 # 2. Store The Resulting b'' String Into The Commented "key" Variable On Line 21
 # 3. Comment Out Lines 14-18
-# 4. Uncomment Lines: 21, 22, 68, and 69 And You Should Be Ready!
+# 4. Uncomment Lines: 21, 22, 68, and 69. Now You're Ready To Record Secret Messages!
 
 
 # def create_key():
