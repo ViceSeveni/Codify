@@ -1,5 +1,5 @@
 # Codify - A Simple Encryption Script
-* This version makes use of Pyperclip so make sure it is pip installed!
+* This version makes use of Pyperclip, so make sure it is pip installed!
 * Otherwise, I have a branch without Pyperclip if needed.
 -------------
 Instructions:
