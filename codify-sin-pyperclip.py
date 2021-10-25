@@ -1,14 +1,13 @@
 from cryptography.fernet import Fernet
-import pyperclip
 import os
 
 
-# 1. Uncomment Lines 14-18 To Create A Fresh Key.
+# 1. Uncomment Lines 13-17 To Create A Fresh Key.
 # --- Do Not Lose This Key!
 # --- You Will NOT Be Able To Decrypt Your Messages If You Do
-# 2. Store The Resulting b'' String Into The Commented "key" Variable On Line 21
-# 3. Comment Out Lines 14-18
-# 4. Uncomment Lines: 21, 22, 68, and 69. Now You're Ready To Record Secret Messages!
+# 2. Store The Resulting b'' String Into The Commented "key" Variable On Line 20
+# 3. Comment Out Lines 13-17
+# 4. Uncomment Lines: 20, 21, 66, and 67. Now You're Ready To Record Secret Messages!
 
 
 # def create_key():
@@ -54,15 +53,14 @@ def main():
         
         if task == 'e':
             enc_text = encrypt()
-            pyperclip.copy(enc_text)
             os.system('cls')
-            print('Encrypted text has been copied.')
+            print(f'\nEncrypted text:\n\n{enc_text}\n\n')
             continue
         
         if task == 'd':
             text = decrypt()
             os.system('cls')
-            print(f'Decrypted Message:\n\n{text}\n\n')
+            print(f'\nDecrypted Message:\n\n{text}\n\n')
             continue
 
 # if __name__ == '__main__':
