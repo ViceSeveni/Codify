@@ -1,5 +1,5 @@
 # Codify - A Simple Encryption Script
-* This makes use of pyperclip so make sure it is pip installed!
+* This version doesn't utilize Pyperclip.
 -------------
 Instructions:
 1. Uncomment Lines 14-18 To Create A Fresh Key
